@@ -1,0 +1,122 @@
+body{
+    background-image: url(img/paven.png);
+    font-family: monospace;
+}
+
+#header{
+   width: 100%;
+   min-width: 1200px;
+}
+
+#profile{
+    color: black;
+
+}
+
+
+#foto{
+    width: 80px;
+    border-radius: 999px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+#face{
+    margin-left: 105px;
+    display: inline;
+    width: 50px;
+}
+
+#face:hover{
+    box-shadow: 0px 0px 2px black;
+}
+
+#twi{
+    margin-left: 5px;
+    display: inline;
+    width: 50px;
+}
+
+#twi:hover{
+    box-shadow: 0px 0px 2px black;
+}
+
+#git{
+    margin-left: 5px;
+    display: inline;
+    width: 50px;
+}
+
+#git:hover{
+    box-shadow: 0px 0px 2px black;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 115px;
+    text-align: justify;
+}
+
+#content{
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 40px;
+    text-shadow: 0px 2px 2px black;
+}
+#content:hover{
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 40px;
+    text-shadow: 0px 3px 3px black;
+}
+
+#pc{
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+#code{
+    margin-top: 115px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 170px;
+}
+#sobremi{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 14px;
+    background: palegoldenrod;
+    border-radius: 15px;
+}
+
+#habilidades{
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 14px;
+    background: palegoldenrod;
+    border-radius: 15px;
+}
+
+#contacto{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 115px;
+    text-align: justify;
+}
+
+#footer{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background: palegoldenrod;
+}
