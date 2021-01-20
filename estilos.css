@@ -170,7 +170,7 @@ body{
         margin: 0px auto;
     }
 
-    @media (max-width: 375px){
+    @media (max-width: 720px){
         #header{
             min-width: 1000px;
         }
