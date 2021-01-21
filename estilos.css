@@ -3,11 +3,6 @@ body{
     font-family: monospace;
 }
 
-#header{
-   width: 100%;
-   min-width: 1200px;
-}
-
 #profile{
     color: black;
 
@@ -138,31 +133,48 @@ body{
     }
 }
 
-@media(max-width: 414px){
+@media(max-width: 510px){
+    #foto{
+        width: 15%;
+        margin-left: 170px;
+    }
+
+    #name{
+        margin-left: 125px;
+    }
+
+    #face{
+        margin-left: 160px;
+    }
+
     #content{
-        font-size: 19px;
+        font-size: 24px;
         text-align: center;
     }
 
     #sobremi{
+        width: 70%;
         margin-top: 10px;
+        margin-right: 60px;
         
     }
 
     #pc{
-        width: 50%;
-        margin-top: 20px;
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 60px;
     }
 
     #habilidades{
-        margin-top: 20px;
-        margin-left: 110px;
+        width: 70%;
+        margin-top: 40px;
+        margin-left: 60px;
     }
 
     #code{
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 101px;
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 60px;
     }
 
     #contacto{
@@ -170,25 +182,60 @@ body{
         margin: 0px auto;
     }
 
-    @media (max-width: 720px){
-        #header{
-            min-width: 1000px;
+    @media (max-width: 240px){
+        #foto{
+            width: 20%;
+            margin-left: 90px;
         }
 
-        #foto{
-            margin-left: 145px;
+        #face{
+            margin-left: 66px;
+            width: 9%;
+        }
+        #twi{
+            width: 9%;
+        }
+
+        #git{
+            width: 9%;
         }
         
         #name{
-           margin-left: 100px;
+           margin-left: 50px;
+           font-size: 14px;
+        }
+
+        #content{
+            font-size: 12px;
         }
 
         #sobremi{
-            width: 40%;
+            width: 50%;
+            margin-right: 56px;
+        }
+
+        #pc{
+            margin-left: 56px;
+            width: 50%;
         }
 
         #contacto{
             padding: 5px;
+            font-size: 14px;
+        }
+
+        #habilidades{
+            margin-left: 56px;
+            width: 50%;
+        }
+
+        #habilidades h2{
+            font-size: 14px;
+        }
+
+        #code{
+            margin-left: 56px;
+            width: 50%;
         }
 
     }
